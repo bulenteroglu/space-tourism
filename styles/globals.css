@@ -2,3 +2,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+@layer components {
+  .header {
+    @apply font-serif font-normal text-xxl;
+  }
+
+  .header2 {
+    @apply font-serif font-normal text-xl;
+  }
+
+  .header3 {
+    @apply font-serif font-normal text-lg;
+  }
+
+  .header4 {
+    @apply font-serif font-normal text-md;
+  }
+
+  .header5 {
+    @apply font-sans font-normal text-sm tracking-widest;
+  }
+
+  .subheader {
+    @apply font-serif font-normal text-sm;
+  }
+
+  .subheader2 {
+    @apply font-serif font-normal text-xxxs tracking-wide;
+  }
+
+  .navtext {
+    @apply font-serif font-normal text-xxxs tracking-wider;
+  }
+
+  .body {
+    @apply font-sans font-normal text-xs leading-loose;
+  }
+}
